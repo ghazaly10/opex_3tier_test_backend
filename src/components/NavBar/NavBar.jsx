@@ -17,19 +17,19 @@ function Navbar() {
 
         <div className="flex space-x-4">
           <Link
-            href="/employees"
+            href="/api/employees"
             className="hover:bg-gray-700 px-3 py-2 rounded-md text-md font-medium transition duration-150 ease-in-out cursor-pointer"
           >
             Employees
           </Link>
           <Link
-            href="/departments"
+            href="/api/departments"
             className="hover:bg-gray-700 px-3 py-2 rounded-md text-md font-medium transition duration-150 ease-in-out cursor-pointer"
           >
             Departments
           </Link>
           <Link
-            href="/projects"
+            href="/api/projects"
             className="hover:bg-gray-700 px-3 py-2 rounded-md text-md font-medium transition duration-150 ease-in-out cursor-pointer"
           >
             Projects
